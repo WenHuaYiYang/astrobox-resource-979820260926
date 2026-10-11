@@ -3,7 +3,7 @@
     "id": "979820260926",
     "restype": "watchface",
     "name": "Chaos",
-    "description": "Chaos 是一款专为小米手环 10 Pro（固件版本 3.101.043）打造的原生应用，主要提供以下功能：CPU、内存与存储信息展示；文件管理（出于安全考虑，仅开放只读权限）；表盘管理（支持通过摇一摇手势切换表盘）；以及系统美化（字体与图标美化）。字体和图标资源可通过配套的 Android 应用进行制作。欢迎加群：1018886448",
+    "description": "v1.0.1版本更新，添加了自动注入和模糊背景，9p已经在尝试适配，但是奈何bug太多了！请加群：1018886448\n\nChaos 是一款专为小米手环 10 Pro（固件版本 3.101.043）打造的原生应用，主要提供以下功能：CPU、内存与存储信息展示；文件管理（出于安全考虑，仅开放只读权限）；表盘管理（支持通过摇一摇手势切换表盘）；以及系统美化（字体与图标美化）。字体和图标资源可通过配套的 Android 应用进行制作。",
     "preview": [
       "media/s2.png",
       "media/s3.png",
@@ -32,16 +32,22 @@
       "icon": "Link"
     },
     {
-      "title": "前往官网下载资源包",
-      "url": "https://www.chaosmgr.dpdns.org/",
+      "title": "前往下载制作台",
+      "url": "https://pan.quark.cn/s/5ad74764a778",
       "icon": "AndroidLogo"
     }
   ],
   "downloads": {
     "xmb10p": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "file_name": "downloads/chaos-installer-10p-043-v1.bin",
-      "versionCode": 1
+      "versionCode": 2,
+      "updatelogs": [
+        {
+          "version": "1.0.1",
+          "content": "添加了自动注入和模糊背景，9p已经在尝试适配，但是奈何bug太多了！"
+        }
+      ]
     }
   },
   "ext": {}
